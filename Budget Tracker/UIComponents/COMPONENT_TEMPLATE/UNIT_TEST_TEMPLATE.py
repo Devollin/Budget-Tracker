@@ -1,0 +1,2 @@
+import tkinter
+import COMPONENT_CODE_TEMPLATE
