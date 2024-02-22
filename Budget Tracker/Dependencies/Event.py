@@ -5,11 +5,15 @@ T = TypeVar('T')
 
 
 class Listener(Generic[T]):
+	type = "Listener"
+
 	def __init__(self, function: Callable[[T], None]) -> None:
 		self.function: Callable[[T], None] = function
 
 
 class Event(Generic[T]):
+	type = "Event"
+
 	def __init__(self) -> None:
 		self.__listeners: list[Listener[T]] = []
 

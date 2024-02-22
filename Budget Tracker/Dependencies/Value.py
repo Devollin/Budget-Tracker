@@ -6,6 +6,7 @@ T = TypeVar('T')
 
 
 class Value(Generic[T]):
+	type = "Value"
 	Changed: Event[T] = Event()
 	WillChange: Event[T] = Event()
 
