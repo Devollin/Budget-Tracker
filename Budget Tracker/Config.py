@@ -1,1 +1,1 @@
-"idk, colors and shit?"
+# idk, styles and shit?	

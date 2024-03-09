@@ -27,11 +27,18 @@
     <Compile Include="Dependencies\Value.py" />
     <Compile Include="UIComponents\COMPONENT_TEMPLATE\CODE_TEMPLATE.py" />
     <Compile Include="UIComponents\COMPONENT_TEMPLATE\UNIT_TEST_TEMPLATE.py" />
+    <Compile Include="UIComponents\LoginWindow\LoginWindow.py" />
+    <Compile Include="UIComponents\LoginWindow\LoginWindow_UnitTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIComponents\Window\Window.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dependencies\" />
     <Folder Include="UIComponents\" />
     <Folder Include="UIComponents\COMPONENT_TEMPLATE\" />
+    <Folder Include="UIComponents\LoginWindow\" />
+    <Folder Include="UIComponents\Window\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
