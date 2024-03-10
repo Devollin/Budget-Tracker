@@ -4,9 +4,8 @@ from Dependencies.Value import Value
 from Dependencies.Event import Event
 
 from UIComponents.Window.Window import MakeWindow
+from UIComponents.LoginWindow.LoginWindow import LoginWindow
 
-
-root: Tk = Tk()
 
 event = Event()
 
@@ -25,4 +24,5 @@ value.Changed.Connect(HandleEvent)
 
 value.Set("BIG TEST")
 
-root.mainloop()
+
+LoginWindow().mainloop()
